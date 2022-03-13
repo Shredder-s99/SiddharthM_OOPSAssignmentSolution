@@ -19,7 +19,7 @@ public class credential extends employee {
 		pswd = pswd + alphabets.charAt(random.nextInt(alphabets.length()));
 		pswd = pswd + caps.charAt(random.nextInt(caps.length()));
 		pswd = pswd + special.charAt(random.nextInt(special.length()));
-		while(pswd.length()<8)
+		while(pswd.length()<=8)
 		{
 			pswd = pswd + caps.charAt(random.nextInt(caps.length()));
 		}
